@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="InternetTest.TeacherSchedule"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:InternetTest"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Pivot Title="ФИО преподавателя"
+           x:Name="mainPivot"
+           Background="#326ADF">
+    </Pivot>
+
+    <Page.BottomAppBar>
+        <CommandBar>
+            <CommandBar.SecondaryCommands>
+                <AppBarButton Label="Расписание группы"
+                              Click="ShowGroupSchedule" />                
+                <AppBarButton Label="Выбрать преподавателя"
+                              Click="ChooseTeacher" />
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>

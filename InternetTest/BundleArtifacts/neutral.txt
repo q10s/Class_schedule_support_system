@@ -1,0 +1,4 @@
+MainPackage=E:\wpapps\InternetTest\InternetTest\bin\Release\Timetable_1.1.0.1_Bundle\Timetable_1.1.0.1_AnyCPU.appx
+SymbolPackage=E:\wpapps\InternetTest\InternetTest\AppPackages\Timetable_1.1.0.1_Test\Timetable_1.1.0.1_AnyCPU.appxsym
+ResourcePack=E:\wpapps\InternetTest\InternetTest\bin\Release\Timetable_1.1.0.1_Bundle\Timetable_1.1.0.1_scale-100.appx
+ResourcePack=E:\wpapps\InternetTest\InternetTest\bin\Release\Timetable_1.1.0.1_Bundle\Timetable_1.1.0.1_scale-140.appx
